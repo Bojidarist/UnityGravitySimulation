@@ -20,7 +20,7 @@ public class Attractor : MonoBehaviour
 
     /// <summary>
     /// Fixed update is used when working with physics
-    /// because it is not depended of fps
+    /// because it is not depended on fps
     /// </summary>
     private void FixedUpdate()
     {
