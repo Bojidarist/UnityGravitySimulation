@@ -41,11 +41,11 @@ MonoBehaviour:
         stationaryBlending: 0.95
         motionBlending: 0.85
   ambientOcclusion:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
-      intensity: 1
-      radius: 0.3
-      sampleCount: 10
+      intensity: 4
+      radius: 5
+      sampleCount: 3
       downsampling: 1
       forceForwardCompatibility: 0
       ambientOnly: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
       reflection:
         blendType: 0
         reflectionQuality: 2
-        maxDistance: 100
+        maxDistance: 51
         iterationCount: 256
         stepSize: 3
         widthModifier: 0.5
@@ -68,9 +68,9 @@ MonoBehaviour:
         fresnelFade: 1
         fresnelFadePower: 1
       screenEdgeMask:
-        intensity: 0.03
+        intensity: 0.52
   depthOfField:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       focusDistance: 5
       aperture: 5.6
@@ -101,11 +101,11 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 2
+        intensity: 1
         threshold: 1
         softKnee: 1
         radius: 2.6
-        antiFlicker: 1
+        antiFlicker: 0
       lensDirt:
         texture: {fileID: 0}
         intensity: 3
@@ -324,7 +324,7 @@ MonoBehaviour:
       color: {r: 0, g: 0, b: 0, a: 1}
       center: {x: 0.5, y: 0.5}
       intensity: 0.45
-      smoothness: 0.2
+      smoothness: 0.5
       roundness: 1
       mask: {fileID: 0}
       opacity: 1
